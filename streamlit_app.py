@@ -1,5 +1,5 @@
 import streamlit as st
-import RagLlm as rag
+from RagLlm import RagLlm as rag
 import tempfile
 import os
 import sys
