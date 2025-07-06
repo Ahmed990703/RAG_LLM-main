@@ -2,10 +2,9 @@ import streamlit as st
 import RagLlm as rag
 import tempfile
 import os
-try:
-    import faiss
-except ImportError:
-    from faiss import *
+import sys
+if sys.version_info >= (3, 13):
+    raise RuntimeError("Python 3.13 is not supported yet. Please use Python 3.10.")
 
 ocr_system = rag.OCR_RAG_System(gemini_api_key='AIzaSyAFLqDuBXJovJCXseE-4N3OnyelHorgFIA',knowledge_base_path='knowledge_base.pkl')
 #image_path = upload_file()
