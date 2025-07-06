@@ -5,3 +5,5 @@ g++
 build-essential
 cmake
 make
+python3-dev
+
