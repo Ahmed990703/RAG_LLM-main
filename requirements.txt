@@ -1,5 +1,5 @@
 streamlit==1.46.1
-https://anaconda.org/pytorch/faiss-cpu/1.7.4/download/faiss-cpu-1.7.4-py310h51b44d4_1.tar.bz2
+faiss-cpu==1.7.4 --no-binary :all:
 google-generativeai==0.8.5
 python-dotenv==1.0.0
 pillow==11.3.0
