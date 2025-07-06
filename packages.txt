@@ -3,3 +3,5 @@ libomp-dev
 swig
 g++
 build-essential
+cmake
+make
