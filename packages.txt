@@ -2,3 +2,4 @@ libopenblas-dev
 libomp-dev
 swig
 g++
+build-essential
