@@ -1,3 +1,5 @@
+import os
+os.chdir('../..')
 from dotenv import load_dotenv
 import os
 #import pytesseract
